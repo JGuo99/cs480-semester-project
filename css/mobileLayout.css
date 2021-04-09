@@ -1,0 +1,191 @@
+::-webkit-scrollbar{ /*Removes Scroll Bar BUT can still Scroll*/
+  display: none;
+}
+/*
+@import url('https://fonts.gstatic.com');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap'); */
+
+
+body {
+  background-color: #343434;
+  color: #c7c7c7;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 10px 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+a {
+  color: #c7c7c7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+}
+
+#pageContainer {
+  margin: 0 auto;
+  width: 100%;
+  min-width: 320px;
+}
+
+.top-nav-dark-color {
+  background-color: #343434F3; /* #RRGGBBAA */
+}
+
+.navbar-side, .lside-section, #defaultTopNav {
+  display: none;
+}
+
+/* Top Nav Bar */
+
+.minimal-ui {
+  display: block;
+  padding: 5px 10px;
+}
+
+.logo {
+  font-size: 32px;
+  font-family: 'Satisfy', cursive;
+  font-weight: 700;
+  text-align: left;
+}
+
+a.logo {
+  color: #c7c7c7;
+}
+
+.hamburgerNav {
+  display: block;
+  font-size: 28px;
+  color: #c7c7c7;
+  border: none;
+  text-decoration: none;
+  text-align: left;
+  background-color: transparent;
+  padding-left: 5px;
+  margin: 0;
+}
+
+.hiddenNav {
+  display: block;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 67px;
+  right: 0;
+  background-color: #343434F3;
+  overflow-x: hidden;
+  transition: 0.25s;
+  font-size: 18px;
+}
+
+.hiddenNav .list-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  display: inline-flex;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.hiddenNav .list-icon  {
+  padding-left: 25px;
+}
+
+.hidden-menu {
+  color: #c7c7c7;
+  font-size: 36px;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+}
+
+#hiddenMenu {
+  max-width: 450px;
+}
+
+#responsive {
+  display: block;
+  padding: 15px;
+}
+
+.hidden-menu-content {
+  padding-left: 15px;
+  padding-bottom: 50vh; /* vh = Viewport Height || vw = Viewport Width */
+}
+
+.custom-icon-option {
+  font-size: 20px;
+  margin: auto;
+}
+
+.custom-icon-text {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+}
+
+#contentContainer {
+  margin: 10px;
+  padding: 10px 15px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.col2-grid {
+  color: #38ad98;
+  display: grid;
+  grid-template-columns: 40px auto;
+  border-bottom: 2px dotted white;
+  padding: 5px;
+}
+/* End of Base Layout */
+
+/* Specific for Index Style  */
+
+.top-container {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.left-container {
+  padding: 0 0 10px;
+}
+
+.right-container {
+  padding: 10px 0 0;
+}
+
+.profile-img {
+  width: 50%;
+}
+
+/* End of Index Style  */

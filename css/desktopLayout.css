@@ -1,0 +1,182 @@
+::-webkit-scrollbar{ /*Removes Scroll Bar BUT can still Scroll*/
+  display: none;
+}
+
+body {
+  background-color: #343434;
+  color: #c7c7c7;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 10px 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+a {
+  color: #c7c7c7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+#pageContainer {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.container-fluid {
+  padding: 25px 50px 10px;
+}
+
+.top-nav-dark-color {
+  background-color: #343434;
+}
+
+.hamburgerNav {
+  display: none;
+}
+
+/* Top Bar */
+
+.top-nav-option {
+  padding: 0;
+}
+
+.logo {
+  font-size: 36px;
+  font-family: 'Satisfy', cursive;
+  font-weight: 700;
+  text-align: left;
+}
+
+a.logo {
+  color: #c7c7c7;
+}
+
+.minimal-ui {
+  display: none;
+}
+
+.hiddenNav {
+  display: none;
+}
+
+#responsive {
+  display: none;
+}
+
+
+#defaultTopNav {
+  display: flex;
+}
+
+/* Side Nav Bar */
+
+.navbar-side {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: fixed;
+  width: 200px;
+  z-index: 1;
+}
+
+.navbar-side a {
+  padding: 8% 0 8% 45px;
+  display: block;
+  text-decoration: none;
+}
+
+.custom-icon-option {
+  font-size: 24px;
+  margin: auto;
+  text-align: center;
+}
+
+.menu-align:hover {
+  color: #546eca;
+}
+
+a.action-style-custom {
+  color: #c7c7c7;
+  padding: 0 0 0 2px;
+}
+
+a.contact-button {
+  color: #c7c7c7;
+  float: right;
+}
+
+.menu-container {
+  margin-bottom: 15px;
+}
+
+.current-active {
+  border-right: 4px solid #38ad98;
+  height: 40px;
+}
+
+.not-active {
+  border-left: 4px solid;
+  border-color: transparent;
+  height: 40px;
+}
+
+#contentContainer {
+  margin: 0;
+  margin-left: 200px;
+  padding: 10px 30px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+/* End of Base Layout */
+
+/* Specific for Index Style  */
+.main-section {
+  margin-right: 200px !important;
+}
+
+.top-container {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.left-container {
+  padding: 0 10px 0 0;
+}
+
+.right-container {
+  padding: 0 0 0 10px;
+}
+
+.profile-img {
+  width: 100%;
+  max-width: 300px;
+}
+
+/* End of Index Style  */

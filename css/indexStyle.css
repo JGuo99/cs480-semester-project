@@ -1,0 +1,90 @@
+/* Intro Section */
+
+.intro-section {
+  border: 3px solid #343434;
+  border-radius: 25px;
+  background-color: #414141 ;
+}
+
+.profile-img {
+  display: block;
+  border-radius: 10px;
+  width: 100%;
+  margin: auto;
+}
+
+.main-container {
+  padding: 15px 30px;
+  width: 100%;
+}
+
+.main-container-small {
+  padding: 15px;
+  text-align: left;
+  overflow-y: scroll;
+  height: 300px;
+}
+
+/* Left Side Content */
+
+.lside-section {
+  height: 100%;
+  overflow-x: hidden;
+  padding-right: 10px;
+  float: right;
+  width: 200px;
+  z-index: 1;
+}
+
+.list-link {
+  color: #c7c7c7;
+  text-decoration: none;
+}
+
+a.list-link:hover {
+  color: #546eca;
+  text-decoration: none;
+}
+
+.list-icon {
+  padding-left: 15px;
+}
+
+.list-text {
+  font-size: 0.85rem;
+  text-align: left;
+  padding: 3px 10px 0 0;
+}
+
+.progress-option {
+  margin: 5px 10px 5px 0;
+}
+
+.sub-list-text {
+  display: inline-flex;
+  font-size: 0.85rem;
+  padding: 0 5px 8px 0;
+}
+
+.list-text-small {
+  display: inline-flex;
+  font-size: 0.8rem;
+}
+
+.vm-text {
+  text-align: right;
+  font-size: 0.6rem;
+}
+
+a.vm-text-link {
+ color: #c7c7c7;
+}
+
+a.vm-text-link:hover {
+  color: #546eca;
+  text-decoration: none;
+}
+
+.temp {
+  background-color: white;
+}
