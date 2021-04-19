@@ -1,0 +1,45 @@
+1. Working with multiple data sets - combining data sets that were not designed
+with combination in mind, so lacking foreign keys, having distinct sets of ids,
+covering different entities so managing large gaps of data across joins.
+This aspect will require a more detailed explanation of how the data was parsed
+and loaded, and what preprocessing was necessary to produce one consistent database.
+
+2. Working with a different database engine - We've been using MySQL all semester,
+but there are plenty of other database engines out there, not only other versions
+of SQL but both relational and non-relational databases that use a different syntax
+from SQL. In this aspect part of the project will be to compare and contrast how
+basic operations work between the languages, and whether certain tasks are easier
+using different tools.
+
+3. Working with multiple different database engines - The separation of front end
+and back end means the same application can be run against multiple data sources,
+whether they be flat data files, different variants of SQL, or completely different
+engines. In this aspect your project will include a comparison between the sources,
+both in ease of setup and efficiency of queries.
+
+4. Data manipulation - Rather than just retrieving data from the database, offers
+the ability to add, remove, or update items in the database.  May require some
+creative thinking for some data sets.  Must motivate why manipulation would be
+desired, and offer interaction through the front end.
+
+5. Security - the creation of users and roles to limit access to the data.
+Doesn't make sense for all data sets.  May require multiple "versions" of the
+application to present different interfaces to the data.
+
+6. Live database - Still requiring an initial database to be set up, something
+that either queries or allows for real time updates.  A database focused on
+optimizing for fast inserts over searching and querying.
+
+7. Front end frills - presenting the data in a format more involved than just a
+table. Displaying the data in graphs or other visualization formats.  Will
+generally require the use of one or more libraries to accomplish.
+
+Or, you can suggest your own challenges that you'd like to tackle.  We will narrow
+down which of these aspects you want to challenge in your project in an in-person
+meeting.
+
+At the end of the semester you will need to submit the following:
+1. Database + instructions for installation and loading the data
+2. Application + instructions for installation of application software
+3. Instructions for how to set up and run the application, what features it provides
+4. Write-up document of including what you've learned and the details from some of the challenge aspects

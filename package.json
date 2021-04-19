@@ -1,0 +1,25 @@
+{
+  "name": "cs480-semester-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "connection.js",
+  "dependencies": {
+    "@mysql/xdevapi": "^8.0.23",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JGuo99/cs480-semester-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JGuo99/cs480-semester-project/issues"
+  },
+  "homepage": "https://github.com/JGuo99/cs480-semester-project#readme"
+}

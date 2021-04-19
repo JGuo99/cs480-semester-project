@@ -1,0 +1,12 @@
+Setup:
+ - If nothing went wrong with the transfer of file this step can be skipped.
+ - Else, if you don't see the node_modules folder
+    - Please do [npm install mysql] in the current folder.
+    - Then, do [npm init -y] if you don't see the package.json
+
+Connection:
+ - Open up Connection.js
+ - Under the "Connection" section, change the information accordingly to your MySQL information
+    - (Change the port if need be) - My port is on 3307, whereas defualt port is 3306
+
+Database Installation:
